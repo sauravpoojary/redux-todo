@@ -8,7 +8,7 @@ import { store } from "./app/store";
 function App() {
   return (
     <Provider store={store}>
-      <h1>Learn About Redux toolkit.</h1>
+      <h1 className="text-5xl font-bold text-yellow-300">Redux Toolkit</h1>
       <AddTodo />
       <Todos />
     </Provider>
